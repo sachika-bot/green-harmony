@@ -16,9 +16,7 @@ const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
     NEXT_PUBLIC_SITE_URL: process.env.GITHUB_PAGES_URL ?? '',
-    NEXT_PUBLIC_ASSET_ORIGIN: isGitHubPages
-      ? 'https://green-harmony-garden.sachika-itakura.chatgpt.site'
-      : '',
+    NEXT_PUBLIC_ASSET_ORIGIN: '',
   },
 };
 

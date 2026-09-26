@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
-        <img className="hero-photo" src={asset('/images/hero.png')} alt="緑あふれる庭と室内" />
+        <img className="hero-photo" src={asset('/images/hero.jpg')} alt="緑あふれる庭と室内" />
         <div className="hero-shade" />
         <header className="brand"><span className="mark">⌁</span><span>Green Harmony<small>GARDEN / PLANTS / MAINTENANCE</small></span></header>
         <div className="hero-copy">
